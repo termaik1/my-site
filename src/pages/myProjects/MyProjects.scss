@@ -1,0 +1,15 @@
+.my-projects {
+    &__content {
+        margin-left: 100px;
+
+        &>div {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+
+            &>a {
+                font-size: 28px;
+            }
+        }
+    }
+}

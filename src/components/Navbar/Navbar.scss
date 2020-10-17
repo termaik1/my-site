@@ -1,0 +1,25 @@
+.navbar {
+  width: 300px;
+  display: grid;
+  justify-content: center;
+  &__content {
+    margin-top: 100px;
+    margin-left: 40px;
+    &-info {
+      font-size: 40px;
+      color: darkred;
+      margin-bottom: 40px;
+    }
+    &-link {
+      display: grid;
+      margin-top: 30px;
+
+      a {
+        text-decoration: none;
+        color: brown;
+        margin-top: 20px;
+        font-size: 18px;
+      }
+    }
+  }
+}

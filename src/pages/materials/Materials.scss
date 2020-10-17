@@ -1,0 +1,31 @@
+.materials {
+
+    .materials__content {
+        margin-left: 100px;
+    }
+
+}
+
+.inquirer {
+    &__qr-code {
+        &> div{
+            font-size: 20px;
+        }
+    }
+}
+
+.qr-code {
+
+    &__container {
+        display: grid;
+        grid-template: repeat(3, 200px) / repeat(3, 200px);
+        margin-top: 18px;
+
+    }
+
+    &__content {
+        display: grid;
+
+        justify-content: center;
+    }
+}
